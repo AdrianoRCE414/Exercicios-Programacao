@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6</title>
+</head>
+<body>
+
+<?php
+
+require_once "circulo.class.php";
+
+// Círculo 1
+$circulo1 = new Circulo();
+
+$circulo1->raio = 5;
+
+echo "Círculo 1: ";
+$circulo1->apresentar();
+
+echo "<hr>";
+
+// Círculo 2
+$circulo2 = new Circulo();
+
+$circulo2->raio = 3;
+
+echo "Círculo 2: ";
+$circulo2->apresentar();
+
+?>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+```css
+.topo{
+    background-image: url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg');
+
+    background-size: cover;
+    background-position: center;
+
+    height: 70vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    text-shadow: 2px 2px 5px black;
+}
+
+.topo h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+```

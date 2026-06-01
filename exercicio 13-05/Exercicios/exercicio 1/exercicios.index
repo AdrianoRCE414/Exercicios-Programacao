@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Livro</title>
+</head>
+<body>
+
+<?php
+
+require_once "livro.class.php";
+
+$livro = new Livro();
+
+$livro->nome = "Dom Casmurro";
+$livro->autor = "Machado de Assis";
+$livro->numeroPaginas = 256;
+$livro->preco = 39.90;
+
+$livro->apresentar();
+
+?>
+
+</body>
+</html>

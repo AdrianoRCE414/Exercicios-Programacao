@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+<h1>Exercicios</h1>
+<?php
+
+// exercicio 1
+$salarioBase = 2000;
+$bonus = 500;
+$salarioFinal = $salarioBase + $bonus;
+echo "1) O salário final do funcionário é R$ $salarioFinal <br><br>";
+
+
+// exercicio 2
+$distancia = 300; // km
+$combustivel = 25; // litros
+$consumo = $distancia / $combustivel;
+echo "2) O consumo médio do veículo foi de $consumo km/l <br><br>";
+
+
+// exercicio 3
+$nota1 = 7;
+$nota2 = 8;
+$nota3 = 9;
+$media = ($nota1 + $nota2 + $nota3) / 3;
+echo "3) A média final do aluno é $media <br><br>";
+
+
+// exercicio 4
+$valorProduto = 100;
+$percentual = 10;
+$desconto = $valorProduto * ($percentual / 100);
+$valorFinal = $valorProduto - $desconto;
+echo "4) O produto custava R$ $valorProduto e agora custa R$ $valorFinal <br><br>";
+
+
+// exercicio 5
+$celsius = 30;
+$fahrenheit = ($celsius * 9/5) + 32;
+echo "5) A temperatura de {$celsius}°C corresponde a {$fahrenheit}°F <br><br>";
+
+
+// exercicio 6
+$anoAtual = 2026;
+$anoNascimento = 2000;
+$idade = $anoAtual - $anoNascimento;
+echo "6) A pessoa possui $idade anos <br><br>";
+
+
+// exercicio 7
+$base = 10;
+$altura = 20;
+$area = $base * $altura;
+echo "7) A área do terreno é $area m² <br><br>";
+
+
+// exercicio 8
+$valorCompra = 150;
+$valorPago = 200;
+$troco = $valorPago - $valorCompra;
+echo "8) O troco a ser devolvido é R$ $troco <br><br>";
+
+
+// exercicio 9
+$capital = 1000;
+$taxa = 0.05; // 5%
+$tempo = 12; // meses
+$juros = $capital * $taxa * $tempo;
+echo "9) O valor do juro gerado é R$ $juros <br><br>";
+
+
+// exercicio 10
+$cliente = "João";
+$valorProduto = 200;
+$percentual = 15;
+$desconto = $valorProduto * ($percentual / 100);
+$valorFinal = $valorProduto - $desconto;
+echo "10) O cliente $cliente comprou um produto de R$ $valorProduto, recebeu R$ $desconto de desconto e pagará R$ $valorFinal";
+
+?>
+
+</body>
+</html>
